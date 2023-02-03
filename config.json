@@ -1,0 +1,15 @@
+{
+  "jira": {
+    "jira_base_url": "https://issues.trusted.visa.com",
+    "username": "svcjira",
+    "password": "{{ vault_svcjira }}"
+  },
+  "service_now": {
+    "asknow_url": "https://asknow.svcnow.com",
+    "username": "svcuser",
+    "password": "{{ vault_asknow_service }}"
+  },
+  "proxy": {
+    "http": "http://localhost",
+    "https": "https://localhost"
+}
